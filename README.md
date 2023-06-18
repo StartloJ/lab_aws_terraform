@@ -14,4 +14,4 @@ Provide a terraform structure to learn AWS services
 
 ## Learning components
 
-1. [Create VPC and subnets](./docs/vpc.md)
+1. [Create VPC and subnets](./docs/network/vpc.md)
