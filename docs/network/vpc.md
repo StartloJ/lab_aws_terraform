@@ -59,6 +59,10 @@ Now, we can let's start to provision a network on AWS provider.
       - Managed_with = "terraform"
       - Environment = "opsta-workshop"
       - Creator = "${YOUR_EMAIL}@opsta.co.th"
+2. Go to `variables.tf` to insert dynamic values.
+
+   - Create single VPC with a separate variables.
+   - If we need to create multiple VPC, How can we?
 
 ### Use VPC endpoint module, see more detials [here](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest/submodules/vpc-endpoints)
 
