@@ -22,9 +22,9 @@ Let's start with me.
         }
       }
       backend "s3" {
-        bucket               = "tf-statefile-all"
+        bucket               = "cci-aws-terraform-state-bucket"
         region               = "ap-southeast-1"
-        workspace_key_prefix = "network"
+        workspace_key_prefix = "iam"
         key                  = "terraform.tfstate"
       }
     }
