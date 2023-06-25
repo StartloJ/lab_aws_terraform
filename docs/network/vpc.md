@@ -24,7 +24,7 @@ Let's start with me.
       backend "s3" {
         bucket               = "cci-aws-terraform-state-bucket"
         region               = "ap-southeast-1"
-        workspace_key_prefix = "iam"
+        workspace_key_prefix = "network"
         key                  = "terraform.tfstate"
       }
     }
