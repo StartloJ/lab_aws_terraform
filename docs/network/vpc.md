@@ -21,12 +21,6 @@ Let's start with me.
           version = ">= 3.72"
         }
       }
-      backend "s3" {
-        bucket               = "cci-aws-terraform-state-bucket"
-        region               = "ap-southeast-1"
-        workspace_key_prefix = "network"
-        key                  = "terraform.tfstate"
-      }
     }
     ```
 
