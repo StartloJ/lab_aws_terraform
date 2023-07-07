@@ -36,3 +36,4 @@ terraform.rc
 # Use only private
 components/iam
 components/network
+components/instances/*
