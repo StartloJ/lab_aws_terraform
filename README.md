@@ -1,6 +1,6 @@
 # lab_aws_terraform
 
-Provide a terraform structure to learn AWS services
+Provide a terraform structure to learn AWS services and practice for develop Terraform.
 
 ## Prerequisites
 
@@ -15,3 +15,4 @@ Provide a terraform structure to learn AWS services
 ## Learning components
 
 1. [Create VPC and subnets](./docs/network/vpc.md)
+2. [Create EC2 and related](./docs/instance/ec2.md)
